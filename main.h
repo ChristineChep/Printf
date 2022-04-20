@@ -63,9 +63,15 @@ int print_hex(va_list l, flags_t *f);
 
 int print_hex_big(va_list l, flags_t *f);
 
+int print_upx(va_list arguments, char *buf, unsigned int ibuf);
+
 int print_binary(va_list l, flags_t *f);
 
 int print_octal(va_list l, flags_t *f);
+
+int print_oct(va_list arguments, char *buf, unsigned int ibuf);
+
+int print_usr(va_list arguments, char *buf, unsigned int ibuf);
 
 
 
